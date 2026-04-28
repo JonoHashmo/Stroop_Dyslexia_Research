@@ -1,0 +1,6 @@
+participant_nr,group,age,education_level,gender,native_language,reading_score
+101,control,20,college,female,english,112
+102,dyslexic,22,college,male,english,74
+103,control,21,college,non-binary,english,108
+104,dyslexic,19,college,female,english,68
+105,control,23,college,male,english,115

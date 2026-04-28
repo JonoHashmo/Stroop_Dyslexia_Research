@@ -1,0 +1,18 @@
+
+Great work! You have completed the first part of the experiment.
+
+During the second part, your job is to indicate what word is printed on the screen, regardless of the color it is printed in.
+
+For example, if you see the word RED printed in BLUE ink, the correct answer would be RED, because that is the word that is printed.
+
+You will have a practice round before the experiment continues.
+
+As a reminder, the keys are:
+D = Red
+F = Blue
+J = Green
+K = Yellow
+
+These will also be shown at the bottom of the screen throughout the task.
+
+Press the spacebar when you are ready to begin.

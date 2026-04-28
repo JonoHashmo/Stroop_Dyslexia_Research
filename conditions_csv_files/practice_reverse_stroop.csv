@@ -1,0 +1,5 @@
+word,color,condition,correct_key,block
+green,green,congruent,J,practice_reverse_stroop
+yellow,yellow,congruent,K,practice_reverse_stroop
+red,blue,incongruent,D,practice_reverse_stroop
+red,green,incongruent,D,practice_reverse_stroop

@@ -1,0 +1,5 @@
+word,color,condition,correct_key,block
+green,green,congruent,J,practice_stroop
+yellow,yellow,congruent,K,practice_stroop
+red,blue,incongruent,F,practice_stroop
+red,green,incongruent,J,practice_stroop

@@ -1,0 +1,20 @@
+
+This experiment has two parts. In both parts, you will see words printed on the screen one at a time.
+
+During the first part, your job is to indicate what word is printed on the screen, regardless of the color it is printed in.
+
+For example, if you see the word RED printed in BLUE ink, the correct answer would be RED, because that is the word that is printed.
+
+Use the following keys to respond:
+D = Red
+F = Blue
+J = Green
+K = Yellow
+
+A reminder of these keys will be shown at the bottom of the screen during the task.
+
+Try to respond as quickly and accurately as possible.
+
+Before we begin, you will complete a short practice round so you can get comfortable with the keys.
+
+(Press the spacebar when you are ready to start the practice)
