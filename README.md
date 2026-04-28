@@ -7,7 +7,7 @@ A reverse stroop task consists of the exact reverse. Meaning, the participant mu
 
 ## Experiment Justification
 Previous studies have shown that normative readers exhibit little to no interference in reverse stroop tasks. This has been perceived as evidence supporting the theory that reading is largely automatic. Regardless of the color the word is written in, the first thing the brain does is read the word. 
-Because people with Dyslexia read slower, we hypothesize that the different color of the word will create a higher interference rate when comparing them to normative readers. The slower reading process, regardless of its automatic nature, may introduce color interference for dyslexic adults. [insert a sentence about the way that input is being processed in dyslexic people and why we believe this will work].
+Because people with Dyslexia read slower, we hypothesize that the different color of the word will create a higher interference rate when comparing them to normative readers. The slower reading process, regardless of its automatic nature, may introduce  interference for dyslexic adults. Research has shown that adults with dyslexia demonstrate deficits in inhibitory control and executive function (Proulx & Elmasry, 2015; Smith-Spark et al., 2016). This may make it more difficult for them to disregard the competing sensory input, in our case the differing ink color, when simply reading the world demands such effortful proccessing.
 
 ## Project Overview
 This experiment uses a stroop and reverse stroop task to determine whether dyslexic individuals exhibit greater interference effects compared to healthy controls on the reverse stroop task. It uses a mixed design, with group (dyslexic vs. control) as a between-subjects factor and task type (Stroop vs. reverse Stroop) as a within-subjects factor. The primary interest in our study is in comparing interference rates between groups, and especially in the group × task type interaction. For instance, whether dyslexic readers show disproportionately more interference on one task compared to the other, which could help shed light on differences in interference and reading automaticity. The within-subjects comparison of interference across Stroop and reverse Stroop within each participant is also available for those interested in exploring the interference asymmetry further on its own.
@@ -106,4 +106,5 @@ Below are screenshots of the two results CSV files.
 ### Enjoy the experiment!!
 
 ## References
-
+- Proulx, M. J., & Elmasry, H.-M. (2015). Stroop interference in adults with dyslexia. Neurocase, 21(4), 413–417. https://doi.org/10.1080/13554794.2014.914544
+- Smith-Spark, J. H., Henry, L. A., Messer, D. J., Edvardsdottir, E., & Zięcik, A. P. (2016). Executive functions in adults with developmental dyslexia. Research in Developmental Disabilities, 53–54, 323–341. https://doi.org/10.1016/j.ridd.2016.03.001
