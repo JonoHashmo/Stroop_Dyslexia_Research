@@ -1,0 +1,5 @@
+participant_nr,stroop_type,condition,total_trials,total_correct,mean_rt,percent correct
+102,reverse,congruent,4,2,0.934165562997805,0.5
+102,reverse,incongruent,6,6,0.7035571601688090,1.0
+102,stroop,congruent,4,2,0.6062621459932420,0.5
+102,stroop,incongruent,6,2,0.3065367090021030,0.3333333333333330
