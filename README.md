@@ -97,7 +97,13 @@ Two files will be created at the conclusion of the experiment. Both will be loca
 
 Below are screenshots of the two results CSV files. 
 
+`participant_102_results.csv` exmaple:
+<img width="820" height="364" alt="102 example results" src="https://github.com/user-attachments/assets/401138d7-1258-488b-a221-ae34893dc64b" />
+
+`participant_102_summary_results.csv` example:
+<img width="659" height="103" alt="102 example resutls summary" src="https://github.com/user-attachments/assets/2a8262b7-047c-447c-b85c-e97e8107cb0f" />
+
 ### Enjoy the experiment!!
 
-# References
+## References
 
