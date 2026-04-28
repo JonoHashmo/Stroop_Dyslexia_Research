@@ -1,0 +1,17 @@
+word,color,condition,correct_key,block
+red,red,congruent,D,practice_stroop
+blue,blue,congruent,F,practice_stroop
+green,green,congruent,J,practice_stroop
+yellow,yellow,congruent,K,practice_stroop
+red,blue,incongruent,F,practice_stroop
+red,green,incongruent,J,practice_stroop
+red,yellow,incongruent,K,practice_stroop
+blue,red,incongruent,D,practice_stroop
+blue,green,incongruent,J,practice_stroop
+blue,yellow,incongruent,K,practice_stroop
+green,red,incongruent,D,practice_stroop
+green,blue,incongruent,F,practice_stroop
+green,yellow,incongruent,K,practice_stroop
+yellow,red,incongruent,D,practice_stroop
+yellow,blue,incongruent,F,practice_stroop
+yellow,green,incongruent,J,practice_stroop
