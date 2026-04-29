@@ -10,16 +10,16 @@ Previous studies have shown that normative readers exhibit little to no interfer
 Because people with Dyslexia read slower, we hypothesize that the different ink color of the word will create higher interference rates when compared to normative readers. The slower reading process, regardless of its automatic nature, may introduce  interference for dyslexic adults. Research has shown that adults with dyslexia demonstrate deficits in inhibitory control and executive function (Proulx & Elmasry, 2015; Smith-Spark et al., 2016). This may make it more difficult for them to disregard the competing sensory input, in our case the differing ink color, when simply reading the world demands such effortful proccessing.
 
 ## Project Overview
-This experiment uses a stroop and reverse stroop task to determine whether dyslexic individuals exhibit greater interference effects compared to healthy controls on the reverse stroop task. It uses a mixed design, with group (dyslexic vs. control) as a between-subjects factor and task type (Stroop vs. reverse Stroop) as a within-subjects factor. The primary interest in our study is in comparing interference rates between groups, and especially in the group × task type interaction. For instance, whether dyslexic readers show disproportionately more interference on one task compared to the other, which could help shed light on differences in interference and reading automaticity. The within-subjects comparison of interference across Stroop and reverse Stroop within each participant is also available for those interested in exploring the interference asymmetry further on its own.
+This experiment uses a stroop and reverse stroop task to determine whether dyslexic individuals exhibit greater interference effects compared to healthy controls on the reverse stroop task. It uses a mixed design, with group (dyslexic vs. control) as a between-subjects factor and task type (Stroop vs. reverse Stroop) as a within-subjects factor. The primary interest in our study is in comparing interference rates between groups, and especially in the group × task type interaction. For instance, whether dyslexic readers show disproportionately more interference on one task compared to the other, which could help shed light on differences in interference and reading automaticity. The within-subjects comparison of interference across stroop and reverse stroop tasks within each participant is also available for those interested in exploring the interference asymmetry further on its own.
 
 ## Required Files
 This experiment expects specific folder names, file names, and column names in order to run properly. All of these are in this repository. The folder, file, and column names below must remain unchanged, though the content is customizable (discussed below).
-- `conditions_csv_files/`– folder containing the four condition CSV files:
+- `conditions_csv_files/`– folder containing the four conditions CSV files:
   - `stroop_conditions.csv`
   - `reverse_stroop_conditions.csv`
   - `practice_stroop.csv`
   - `practice_reverse_stroop.csv`
-  - In these files, columns `word`, `color`, `condition`, and `correct_key` must stay the same
+  - In these files, column names `word`, `color`, `condition`, and `correct_key` must stay the same.
 - `instruction_txt_files/` - folder containing all welcome, instructions, and end-of-experiment text files. The names of the following files must stay the same:
   - `intruct_stroop_first.txt`
   - `intruct_revstroop_first.txt`
@@ -28,8 +28,8 @@ This experiment expects specific folder names, file names, and column names in o
   - `pre_exp_text.txt`
   - `pre_exp_second_text.txt`
   - `end_text.txt`
-  - `participants.csv` – file containing all participant information. The following columns must stay the same: `participant_nr`, and `group` (see Participants section).
-  - `results/` – folder that will contain the participant’s results CSVs. This folder must exist, even if empty, before the experiment begins for the code to work properly.
+- `participants.csv` – file containing all participant information. The following column names must stay the same: `participant_nr`, and `group` (see Participants section).
+- `results/` – folder that will contain the participant’s results CSVs. This folder must exist, even if empty, before the experiment begins for the code to work properly.
 
 ## Experimental Design
 ### Variables
