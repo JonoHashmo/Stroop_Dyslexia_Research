@@ -95,7 +95,7 @@ python3 Experiment.py
 
 ### Results and Analysis 
 Two files will be created at the conclusion of the experiment. Both will be located in the `results` folder in the working directory.
-- `participant_X_results.csv` – This CSV file contains all trials for each participant in a long format. It contains the participant number, group, stroop type, trial number, word printed, ink color, type of condition, the correct key that should be pressed, the participant’s pressed key, reaction time, and whether they got this trial correctly or not.
+- `participant_X_results.csv` – This CSV file contains all trials for each participant in a long format. It contains the participant number, group, stroop type, trial number, word printed, ink color, type of condition, the correct key that should be pressed, the participant’s pressed key, reaction time, and whether they got this trial right or not.
 - `participant_X_summary_results.csv` – This CSV file contains some summary statistics for each participant with one row per stroop type and condition combinations. It contains the participant number, the stroop type and condition, the total number of trials in each category, the number of correct trials, the average reaction time, and the percent of trials that were answered correctly. 
 
 Below are screenshots of the two results CSV files. 
