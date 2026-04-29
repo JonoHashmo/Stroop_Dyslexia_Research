@@ -75,7 +75,7 @@ random.uniform(0.5, 1)
 ```
 This range can be adjusted in the Experiment.py file. 
 
-### Running the Experiment
+### Dependencies and Packages Needed
 This experiment calls for the following repositories and libraries
 - `psychopy`
 - `pandas`
