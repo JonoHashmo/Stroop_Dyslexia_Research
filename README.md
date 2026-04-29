@@ -45,11 +45,11 @@ This experiment expects specific folder names, file names, and column names in o
 - Each participant completes 2 blocks: one stroop and one reverse stroop. Each block is preceded with a practice round and instructions.
 - Stroop and reverse stroop order is counterbalanced by participant number: odd-numbered participants complete stroop first and even-numbered participants complete reverse stroop first. 
 - Blocks contain 128 trials each, with a mix of congruent (same color word and ink) and incongruent (different color word and ink) conditions.
-- Because of the complexity of the task, practice trials provide feedback to participants who get the answer wrong (i.e. “Incorrect – try again!”) and require participants to get all correct trials before moving on to the experiment phase. 
+- Because of the complexity of the task, practice trials provide feedback to participants who get the answer wrong (i.e. “Incorrect – try again!”) and require participants to get the trial right before moving on to the next one and the experiment phase. 
 - Experimental blocks, naturally, do not provide feedback and record accuracy and reaction time.
 
 ### Participants
-This experiment expects participant information to be stored in a CSV file that must be called participants.csv. This file must contain the following columns:
+This experiment expects participant information to be stored in a CSV file that must be called `participants.csv`. This file must contain the following columns:
 - `participant_nr`: any integer
 - `group`: groups can be separated in any way that makes sense to the researcher. In the example file we decided to have “control” vs “dyslexic”. The code will migrate these values into the results file generated at the end. 
 
@@ -65,24 +65,27 @@ This information can be gathered ahead of time through a Qualtrics questionnaire
 This experiment is designed to be easily modifiable to address any changes in the hypothesis being tested. 
 
 **Trial Count and Condition**
-The total number of trials, as well as the ratio of congruent and incongruent conditions are controlled by the CSV files in the `conditions_csv_files` (`stroop_conditions.csv` and `reverse_stroop_conditions.csv`). To edit these conditions, simply edit the csv files, but do not remove them from the folder or change their names. The same can be done with the practice CSV files. 
-Similarly, all welcome, instruction, and end texts can be edited by navigating to the `instruction_txt_files` folder and editing the respective TXT file. Note that all file names should remain the same and not be moved out of the folder. 
+The total number of trials, as well as the ratio of congruent and incongruent conditions are controlled by the CSV files in the `conditions_csv_files/` folder (`stroop_conditions.csv` and `reverse_stroop_conditions.csv`). To edit these conditions, simply edit the csv files, but do not remove them from the folder or change their names. The same can be done with the practice CSV files. 
+Similarly, all welcome, instruction, and end-of-experiment texts can be edited by navigating to the `instruction_txt_files/` folder and editing the respective TXT file. Note that all file names should remain the same and not be moved out of the folder. 
 
 **Fixation Duration**
-In this experiment, the fixation cross currently displays for an interval between 0.5 seconds and 1 second. This is set using the piece of code below in the Stroop() function.
+In this experiment, the fixation cross currently displays for an interval between 0.5 seconds and 1 second. This is set using the code below in the `Stroop()` function.
 ```python
 random.uniform(0.5, 1)
 ```
 This range can be adjusted in the Experiment.py file. 
 
 ### Running the Experiment
-1. Download the experiment file into the working directory on your console.
-2. Run the experiment using Terminal:
+1. Download the zip file that contains all folders and files in this repository to your working directory.
+2. Unzip the file.
+3. Delete the example `participants.csv` file and replace it with your own. NOTE: make sure that the file name and columns mentioned above are the same.
+4. Delete the example files in the `results/` folder. NOTE: keep the empty results folder in the working directory. 
+5. Run the experiment using Terminal:
 ```bash
 python3 Experiment.py
 ```
 3. Enter the participant number in the dialogue box. (This participant number must match the participants.csv file. This is caught in a try/except loop).
-4. Have participants follow the on screen instructions.
+4. Have participants follow the on screen instructions to complete the experiment.
 5. Experiment results will be exported to the results folder.
 
 ## Experiment Controls
