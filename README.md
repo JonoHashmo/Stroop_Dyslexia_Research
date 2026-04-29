@@ -49,7 +49,7 @@ This experiment expects specific folder names, file names, and column names in o
 - Experimental blocks, naturally, do not provide feedback and record accuracy and reaction time.
 - Randomization of trials occurs in each block. It uses the follwoing code found in Experiment.py:
 ```python
-.sample(frac=1).reset_index(drop=TRUE)
+.sample(frac=1).reset_index(drop=True)
 ```
 
 ### Participants
