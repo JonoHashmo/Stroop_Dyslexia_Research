@@ -76,17 +76,22 @@ random.uniform(0.5, 1)
 This range can be adjusted in the Experiment.py file. 
 
 ### Running the Experiment
+This experiment calls for the following repositories and libraries
+- `psychopy`
+- `pandas`
+- `random`
+- `os`
+Additionally, this code must be run through PsychoPy. PsychoPy can be downlaoded for free at this link: https://psychopy.org/download.html
+
+### Running the Experiment
 1. Download the zip file that contains all folders and files in this repository to your working directory.
 2. Unzip the file.
 3. Delete the example `participants.csv` file and replace it with your own. NOTE: make sure that the file name and columns mentioned above are the same.
 4. Delete the example files in the `results/` folder. NOTE: keep the empty results folder in the working directory. 
-5. Run the experiment using Terminal:
-```bash
-python3 Experiment.py
-```
-3. Enter the participant number in the dialogue box. (This participant number must match the participants.csv file. This is caught in a try/except loop).
-4. Have participants follow the on screen instructions to complete the experiment.
-5. Experiment results will be exported to the results folder.
+5. Run the experiment using PsychoPy: Open the Experiment.py file in the PsychoPy code runner and press the green play button.
+7. Enter the participant number in the dialogue box. (This participant number must match the participants.csv file. This is caught in a try/except loop).
+8. Have participants follow the on screen instructions to complete the experiment.
+9. Experiment results will be exported to the results folder.
 
 ## Experiment Controls
 - Participants will be prompted to use the "space" bar in order to move between instruction screens and in order to start the experiment.
