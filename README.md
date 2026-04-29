@@ -80,11 +80,11 @@ random.uniform(0.5, 1)
 This range can be adjusted in the Experiment.py file. 
 
 ### Dependencies and Packages Needed
-This experiment calls for the following repositories and libraries
+This experiment requires the following Python packages:
 - `psychopy`
 - `pandas`
-- `random`
-- `os`
+It also uses `random` and `os` which are built in Python libraries.
+
 Additionally, this code must be run through PsychoPy. PsychoPy can be downlaoded for free at this link: https://psychopy.org/download.html
 
 ### Running the Experiment
