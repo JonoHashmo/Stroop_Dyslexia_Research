@@ -1,5 +1,5 @@
 # Does Color Get in the Way? Reverse Stroop Interference in Dyslexic vs. Normative Readers
-This repository is a complete experiment stroop and reverse stroop task, with suggested initial analysis, examining the difference in interference in a reverse stroop task between adults with dyslexia and normative readers.
+This repository is a complete experiment consisting of a stroop and reverse stroop task, with suggested initial analysis, examining the difference in interference in a reverse stroop task between adults with dyslexia and normative readers.
 
 ## Stroop vs Reverse Stroop
 A stroop task consists of the name of a color being shown on the screen, printed in various colors. Sometimes the word and color are one and the same, the congruent condition (i.e. RED printed in red ink) and other times the color will be different, the incongruent condition (i.e. RED printed in blue ink). The task in a normal stroop test is to identify the color the word is printed in regardless of the word (i.e. if the word RED is printed in blue color, the correct answer would be BLUE). 
