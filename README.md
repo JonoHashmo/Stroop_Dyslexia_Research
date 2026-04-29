@@ -47,7 +47,7 @@ This experiment expects specific folder names, file names, and column names in o
 - Blocks contain 128 trials each, with a mix of congruent (same color word and ink) and incongruent (different color word and ink) conditions.
 - Because of the complexity of the task, practice trials provide feedback to participants who get the answer wrong (i.e. “Incorrect – try again!”) and require participants to get the trial right before moving on to the next one and the experiment phase. 
 - Experimental blocks, naturally, do not provide feedback and record accuracy and reaction time.
-- Randomization of trials occurs in each block. It uses the follwoing code found in Experiment.py:
+- Randomization of trials occurs in each block. It uses the following code found in Experiment.py:
 ```python
 .sample(frac=1).reset_index(drop=True)
 ```
@@ -85,7 +85,7 @@ This experiment requires the following Python packages:
 - `pandas`
 It also uses `random` and `os` which are built in Python libraries.
 
-Additionally, this code must be run through PsychoPy. PsychoPy can be downlaoded for free at this link: https://psychopy.org/download.html
+Additionally, this code must be run through PsychoPy. PsychoPy can be downloaded for free at this link: https://psychopy.org/download.html
 
 ### Running the Experiment
 1. Download the zip file that contains all folders and files in this repository to your working directory.
@@ -93,9 +93,9 @@ Additionally, this code must be run through PsychoPy. PsychoPy can be downlaoded
 3. Delete the example `participants.csv` file and replace it with your own. NOTE: make sure that the file name and columns mentioned above are the same.
 4. Delete the example files in the `results/` folder. NOTE: keep the empty results folder in the working directory. 
 5. Run the experiment using PsychoPy: Open the Experiment.py file in the PsychoPy code runner and press the green play button.
-7. Enter the participant number in the dialogue box. (This participant number must match the participants.csv file. This is caught in a try/except loop).
-8. Have participants follow the on screen instructions to complete the experiment.
-9. Experiment results will be exported to the results folder.
+6. Enter the participant number in the dialogue box. (This participant number must match the participants.csv file. This is caught in a try/except loop).
+7. Have participants follow the on screen instructions to complete the experiment.
+8. Experiment results will be exported to the results folder.
 
 ## Experiment Controls
 - Participants will be prompted to use the "space" bar in order to move between instruction screens and in order to start the experiment.
@@ -111,7 +111,7 @@ NOTE: Reaction time averages are calculated using only correct trials.
 
 Below are screenshots of the two results CSV files. 
 
-`participant_102_results.csv` exmaple:
+`participant_102_results.csv` example:
 <img width="820" height="364" alt="102 example results" src="https://github.com/user-attachments/assets/401138d7-1258-488b-a221-ae34893dc64b" />
 
 `participant_102_summary_results.csv` example:
