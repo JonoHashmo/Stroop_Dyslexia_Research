@@ -83,6 +83,7 @@ This range can be adjusted in the Experiment.py file.
 This experiment requires the following Python packages:
 - `psychopy`
 - `pandas`
+
 It also uses `random` and `os` which are built in Python libraries.
 
 Additionally, this code must be run through PsychoPy. PsychoPy can be downloaded for free at this link: https://psychopy.org/download.html
