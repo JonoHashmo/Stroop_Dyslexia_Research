@@ -89,8 +89,8 @@ python3 Experiment.py
 5. Experiment results will be exported to the results folder.
 
 ## Experiment Controls
-- Participants will be prompted to use the ‘space’ bar in order to move between instruction screens and in order to start the experiment.
-- Keys for colors will be explained in the beginning of the experiment, and be included below the target word as a reminder.
+- Participants will be prompted to use the "space" bar in order to move between instruction screens and in order to start the experiment.
+- Keys for colors will be explained in every instructions text, and included below the target word as a reminder.
 - The ‘ESC’ key can be used by facilitators to terminate the experiment at anytime. 
 
 ### Results and Analysis 
