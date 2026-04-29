@@ -47,6 +47,10 @@ This experiment expects specific folder names, file names, and column names in o
 - Blocks contain 128 trials each, with a mix of congruent (same color word and ink) and incongruent (different color word and ink) conditions.
 - Because of the complexity of the task, practice trials provide feedback to participants who get the answer wrong (i.e. “Incorrect – try again!”) and require participants to get the trial right before moving on to the next one and the experiment phase. 
 - Experimental blocks, naturally, do not provide feedback and record accuracy and reaction time.
+- Randomization of trials occurs in each block. It uses the follwoing code found in Experiment.py:
+```python
+.sample(frac=1).reset_index(drop=TRUE)
+```
 
 ### Participants
 This experiment expects participant information to be stored in a CSV file that must be called `participants.csv`. This file must contain the following columns:
@@ -102,6 +106,8 @@ Additionally, this code must be run through PsychoPy. PsychoPy can be downlaoded
 Two files will be created at the conclusion of the experiment. Both will be located in the `results` folder in the working directory.
 - `participant_X_results.csv` – This CSV file contains all trials for each participant in a long format. It contains the participant number, group, stroop type, trial number, word printed, ink color, type of condition, the correct key that should be pressed, the participant’s pressed key, reaction time, and whether they got this trial right or not.
 - `participant_X_summary_results.csv` – This CSV file contains some summary statistics for each participant with one row per stroop type and condition combinations. It contains the participant number, the stroop type and condition, the total number of trials in each category, the number of correct trials, the average reaction time, and the percent of trials that were answered correctly. 
+
+NOTE: Reaction time averages are calculated using only correct trials. 
 
 Below are screenshots of the two results CSV files. 
 
