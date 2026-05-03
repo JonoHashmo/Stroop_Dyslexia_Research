@@ -109,7 +109,7 @@ print(f"Started experiment for participant {exp_info['participant_nr']}. They ar
 results = pd.DataFrame(columns=['participant_nr', 'group', 'stroop_type', 'trial_nr', 'word', 'color', 'condition', 'correct_key', 'pressed_key', 'rt', 'correct'])
 
 ### Assign Order of Stroop Tasks ###
-if int(exp_info['participant_nr']) % 2 == 0: #if even participant number, Stroop first.
+if int(exp_info['participant_nr']) % 2 == 0: #if even participant number, reverse stroop first.
     order = ['reverse_stroop', 'stroop']
 else:
     order = ['stroop', 'reverse_stroop']
