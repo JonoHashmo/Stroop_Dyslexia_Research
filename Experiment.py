@@ -26,7 +26,7 @@ def Stroop(rev=True, practice = False): # no practice default. rev=True (default
 
     clock = Clock() # start clock
 
-    key_rem = TextStim(win, 'D = Red, F = Blue, J = Green, K = Yellow', pos = (0,-0.09), height = 0.07)
+    key_rem = TextStim(win, 'D = Red, F = Blue, J = Green, K = Yellow', pos = (0,-0.15), height = 0.07)
     #create fixation
     fix_target = TextStim(win, '+')
 
@@ -42,7 +42,7 @@ def Stroop(rev=True, practice = False): # no practice default. rev=True (default
         kb.clearEvents()
 
         #Stroop
-        word = TextStim(win, row['word'].upper(), color = row['color'], height = 0.1, bold = True)
+        word = TextStim(win, row['word'].upper(), color = row['color'], height = 0.2, bold = True)
         word.draw()
         key_rem.draw()
         win.flip()
@@ -109,7 +109,7 @@ print(f"Started experiment for participant {exp_info['participant_nr']}. They ar
 results = pd.DataFrame(columns=['participant_nr', 'group', 'stroop_type', 'trial_nr', 'word', 'color', 'condition', 'correct_key', 'pressed_key', 'rt', 'correct'])
 
 ### Assign Order of Stroop Tasks ###
-if int(exp_info['participant_nr']) % 2 == 0: #if even participant number, Stroop first.
+if int(exp_info['participant_nr']) % 2 == 0: #if odd participant number, Stroop first.
     order = ['reverse_stroop', 'stroop']
 else:
     order = ['stroop', 'reverse_stroop']
@@ -241,7 +241,7 @@ correct_results_summary = results.groupby(["stroop_type", "condition"]).agg(
     total_correct = ("correct", lambda x: (x == "correct").sum()), #get the total number of correct trials
 ).reset_index()
 
-mean_rt = correct_results.groupby(["stroop_type", "condition"])["rt"].mean().reset_index()
+mean_rt = correct_results.groupby(["stroop_type", "condition"])["rt"].mean().reset_index().rename(columns={"rt": "mean_rt"})
 
 results_summary = correct_results_summary.merge(mean_rt, on=["stroop_type", "condition"])
 
